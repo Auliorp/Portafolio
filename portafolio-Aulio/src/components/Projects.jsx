@@ -1,8 +1,8 @@
 import ProjectItem from "./ProjectItem";
-import ADIPWEB from "../assets/ADIPWEB.jpg";
-import FoodPI from "../assets/FoodPI.jpg";
-import RickAndMorty from "../assets/RickAndMorty.jpg";
-import Tasks from "../assets/Tasks.jpg";
+import adipweb from "../assets/adipweb.jpg";
+import foodpi from "../assets/foodpi.jpg";
+import rickandmorty from "../assets/rickandmorty.jpg";
+import tasks from "../assets/tasks.jpg";
 
 const Projects = () => {
    return (
@@ -14,10 +14,10 @@ const Projects = () => {
             Descripcion de los proyectos que he realizado bla bla bla
          </p>
          <div className="grid sm:grid-cols-2 gap-12">
-            <ProjectItem img={ADIPWEB} title="Adip web" />
-            <ProjectItem img={FoodPI} title="Food PI web" />
-            <ProjectItem img={RickAndMorty} title="Rick and Morty web" />
-            <ProjectItem img={Tasks} title="Tasks web" />
+            <ProjectItem img={adipweb} title="Adip web" />
+            <ProjectItem img={foodpi} title="Food PI web" />
+            <ProjectItem img={rickandmorty} title="Rick and Morty web" />
+            <ProjectItem img={tasks} title="tasks web" />
          </div>
       </div>
    );
